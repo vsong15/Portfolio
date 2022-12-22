@@ -19,7 +19,7 @@ html {
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: orange;
 }
 .container {
 	min-height: 100vh;
@@ -44,7 +44,7 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: orange;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
@@ -108,10 +108,10 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(0, 27, 226, 0.24);
+	background-color: rgba(0, 0, 128, 0.851);
 	transition: 0.3s ease background-color;
 }
-#header .nav-bar {
+.navigation {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
